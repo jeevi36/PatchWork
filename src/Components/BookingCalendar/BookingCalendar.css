@@ -1,0 +1,92 @@
+#calendar {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 180px;
+}
+
+#calendar table {
+    width: 100%;
+    border-collapse: collapse;
+  
+}
+
+#calendar th, #calendar td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 30px ;
+   
+
+    cursor: pointer;
+}
+
+#calendar th {
+    background-color: #f4a742;
+    color: white;
+    font-weight: bold;
+    
+}
+
+#calendar td:hover {
+    background-color: #f9f9f9;
+}
+
+#calendar td:active {
+    background-color: #e2e2e2;
+}
+
+#calendar td.selected {
+    background-color: #f4a742;
+    color: white;
+    font-weight: bold;
+}
+
+#calendar td.inactive {
+    color: #ccc;
+    pointer-events: none;
+}
+
+.disabled {
+    background-color: #f0f0f0;
+    color: #ccc;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+  
+  
+
+/* BookingCalendar.css */
+.calendar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.4rem;
+    
+    font-size: 2rem;
+  }
+  
+  .arrow {
+    cursor: pointer;
+    font-size: 0.8rem;
+    margin-top: 14px;
+    margin-left: 30px;
+    margin-right:30px;
+    user-select: none; /* Prevent text selection */
+  }
+  
+  .arrow:hover {
+    color: #007bff;
+  }
+  
+   h2 {
+    font-size: 20px;
+    margin-top: 70px;
+    align-items: center;
+    margin: 0;
+    color: black;
+  }
+  
