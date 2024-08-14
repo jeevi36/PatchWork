@@ -53,7 +53,11 @@ const AdminLogin = () => {
         const response = await axios.post('http://localhost:8080/api/login', formData);
         console.log('Login successful:', response.data);
         alert('Login successful!');
+<<<<<<< HEAD
         navigate('/admindashboard'); // Redirect to the homepage or another page upon successful login
+=======
+        navigate('/dashboard'); // Redirect to the homepage or another page upon successful login
+>>>>>>> e84ea8e (Initial commit of my React Project)
       } catch (error) {
         console.error('Login failed:', error.response?.data || error.message);
         alert('Login failed. Please check your credentials and try again.');

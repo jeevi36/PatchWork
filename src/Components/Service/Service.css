@@ -186,7 +186,11 @@ button, input, optgroup, select, textarea {
 }
 
 .column h2 {
+<<<<<<< HEAD
   color: rgb(206, 182, 22);
+=======
+  color: rgb(255, 128, 0);
+>>>>>>> e84ea8e (Initial commit of my React Project)
   padding-top: 80px;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
@@ -316,7 +320,11 @@ img {
 .brand h1 {
   margin-left: 100px;
   margin-top: 100px;
+<<<<<<< HEAD
   color: rgb(206, 182, 22);
+=======
+  color: rgb(255, 128, 0);
+>>>>>>> e84ea8e (Initial commit of my React Project)
   font-size: 20px;
 }
 
@@ -919,7 +927,11 @@ display: flex;
 }
 
 .quote-form h2 {
+<<<<<<< HEAD
   color: orange;
+=======
+  color: rgb(255, 128, 0);
+>>>>>>> e84ea8e (Initial commit of my React Project)
   font-size: 18px;
   margin-bottom: 10px;
 }
@@ -956,7 +968,11 @@ textarea {
 .quote-button {
   width: 100%;
   padding: 15px;
+<<<<<<< HEAD
   background-color: orange;
+=======
+  background-color: rgb(255, 128, 0);
+>>>>>>> e84ea8e (Initial commit of my React Project)
   color: white;
   border: none;
   border-radius: 4px;
@@ -965,7 +981,11 @@ textarea {
 }
 
 .quote-button:hover {
+<<<<<<< HEAD
   background-color: #e67e22;
+=======
+  background-color: rgb(255, 128, 0);
+>>>>>>> e84ea8e (Initial commit of my React Project)
 }
 
 .quote-image {

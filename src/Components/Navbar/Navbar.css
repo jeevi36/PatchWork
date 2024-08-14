@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+/* General Resets */
+>>>>>>> e84ea8e (Initial commit of my React Project)
 * {
     padding: 0;
     margin: 0;
@@ -12,7 +16,13 @@
 }
 
 body {
+<<<<<<< HEAD
     margin: 0;
+=======
+    margin: 0; /* Remove default margin */
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+   
+>>>>>>> e84ea8e (Initial commit of my React Project)
 }
 
 header {
@@ -20,6 +30,7 @@ header {
     align-items: center;
     justify-content: space-between;
     height: 110px;
+<<<<<<< HEAD
     padding: 0 2rem;
     background-color: white;
     color: var(--textColor);
@@ -29,23 +40,45 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
+=======
+    padding: 0 2rem; /* Padding inside the header */
+    background-color: white;
+    color: var(--textColor);
+    width: 100%; /* Full width */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: add a shadow */
+    position: fixed; /* Keep it fixed at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure it stays on top */
+   
+>>>>>>> e84ea8e (Initial commit of my React Project)
 }
 
 header img {
     width: 110px;
     height: 110px;
+<<<<<<< HEAD
+=======
+    margin-left: 70px;
+>>>>>>> e84ea8e (Initial commit of my React Project)
 }
 
 nav {
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     margin-left: auto;
+=======
+   margin-right: 190px;
+   font-size: 17px;
+>>>>>>> e84ea8e (Initial commit of my React Project)
 }
 
 nav a {
     margin: 0 2rem;
     color: var(--textColor);
     text-decoration: none;
+<<<<<<< HEAD
 }
 
 nav a:hover {
@@ -64,12 +97,21 @@ header .nav-btn {
     font-size: 0.1rem;
     text-decoration: none;
     margin-right: 100px;
+=======
+    padding: 10px 0; /* Add padding to ensure proper click area */
+    transition: color 0.3s ease; /* Only change text color on hover */
+}
+
+nav a:hover, nav a.active {
+    color: blue; /* Text color on hover and active */
+>>>>>>> e84ea8e (Initial commit of my React Project)
 }
 
 a:hover {
     color: black;
 }
 
+<<<<<<< HEAD
 .right-container {
     display: flex;
     align-items: center;
@@ -78,6 +120,10 @@ a:hover {
 
 .book-now-btn {
     margin-left: 20px; /* Space between the login button and nav links */
+=======
+.book-now-btn {
+    margin-left: auto; /* Push login button to the right */
+>>>>>>> e84ea8e (Initial commit of my React Project)
 }
 
 .book-now-btn a {
@@ -90,6 +136,10 @@ a:hover {
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
+<<<<<<< HEAD
+=======
+    margin-left: 20px;
+>>>>>>> e84ea8e (Initial commit of my React Project)
 }
 
 .book-now-btn a:hover {
@@ -99,10 +149,17 @@ a:hover {
 }
 
 .admin-icon {
+<<<<<<< HEAD
     margin-left: 20px; /* Space between the admin icon and login button */
 }
 
 .admin-icon .dash-image {
+=======
+    margin-left: 20px; /* Space between the login button and admin icon */
+}
+
+.admin-icon img {
+>>>>>>> e84ea8e (Initial commit of my React Project)
     width: 30px;
     height: 30px;
     cursor: pointer;
@@ -118,6 +175,65 @@ a:hover {
     opacity: 0.7;
 }
 
+<<<<<<< HEAD
+=======
+.profile-menu {
+    position: relative;
+    margin-left: 20px;
+}
+
+.profile-icon {
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: #333;
+    margin-right: 70px;
+}
+
+.profile-icon:hover {
+    color: #007bff;
+}
+
+.dropdown-menu {
+    position: fixed; /* Make the dropdown fixed */
+    top: 110px; /* Position it below the header */
+    right: 20px; /* Align to the right edge of the screen */
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 1001;
+    min-width: 180px;
+}
+
+/* User Email Display */
+.user-email {
+    font-size: 16px;
+    color: #555;
+    padding: 5px 0;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 10px;
+}
+
+/* Dropdown Menu Items */
+.dropdown-item {
+    display: block;
+    padding: 8px 10px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #f7f7f7;
+}
+
+.active {
+    color: #007bff; /* Active text color */
+}
+
+>>>>>>> e84ea8e (Initial commit of my React Project)
 @media only screen and (max-width: 1024px) {
     header .nav-btn {
         visibility: visible;
@@ -137,11 +253,19 @@ a:hover {
         gap: 1.5rem;
         background-color: var(--mainColor);
         transition: transform 0.3s ease;
+<<<<<<< HEAD
         transform: translateY(-100vh);
     }
 
     header .responsive_nav {
         transform: translateY(0);
+=======
+        transform: translateY(-100vh); /* Hide by default */
+    }
+
+    header .responsive_nav {
+        transform: translateY(0); /* Show when active */
+>>>>>>> e84ea8e (Initial commit of my React Project)
     }
 
     nav a {
@@ -154,6 +278,7 @@ a:hover {
         margin-top: 10px;
     }
 
+<<<<<<< HEAD
     .right-container {
         margin-left: 0;
     }
@@ -162,3 +287,9 @@ a:hover {
         margin-left: 0;
     }
 }
+=======
+    .book-now-btn {
+        margin-left: 0;
+    }
+}
+>>>>>>> e84ea8e (Initial commit of my React Project)

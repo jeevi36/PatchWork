@@ -5,6 +5,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import background from '../Images/bg.jpg';
 import slide1 from '../Images/bg2.jpg';
 import  CountUp  from 'react-countup';
+<<<<<<< HEAD
+=======
+import { Link, useNavigate } from 'react-router-dom';
+>>>>>>> e84ea8e (Initial commit of my React Project)
 
 
 const offerings = [
@@ -144,7 +148,11 @@ const Service = () => {
           <div className="form-overlay"> 
             <div className="form-row">  
               <div className="foorm-groups"> 
+<<<<<<< HEAD
                 <button type="button" id="booknow">Book Now</button>
+=======
+                <Link to="/contact"><button type="button" id="booknow">Book Now</button></Link>
+>>>>>>> e84ea8e (Initial commit of my React Project)
               </div>
             </div>
           </div>

@@ -1,0 +1,59 @@
+/* BookingStatus Component Styles */
+.booking-status-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-top: 200px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-status-container h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.booking-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.booking-list li {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.booking-list p {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.booking-list select {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f4f4f4;
+    color: #333;
+    cursor: pointer;
+}
+
+.booking-list select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.booking-list select option {
+    padding: 10px;
+}

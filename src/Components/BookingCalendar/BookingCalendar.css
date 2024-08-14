@@ -82,9 +82,15 @@
     color: #007bff;
   }
   
+<<<<<<< HEAD
    h2 {
     font-size: 20px;
     margin-top: 70px;
+=======
+   .calendar-header h2 {
+    font-size: 20px;
+
+>>>>>>> e84ea8e (Initial commit of my React Project)
     align-items: center;
     margin: 0;
     color: black;

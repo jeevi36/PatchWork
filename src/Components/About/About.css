@@ -97,7 +97,52 @@
 }
 
 
+<<<<<<< HEAD
 
+=======
+.fooorm-groups {
+  flex: 1;
+  min-width: 10px;
+  align-items: center;
+}
+
+.fooorm-groups label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.fooorm-groups input, .foorm-groups select {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.fooorm-groups button {
+  width: 26%;
+  padding: 15px;
+  margin-left: 0px;
+  align-items: center;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #FF7518;
+  color: black;
+  cursor: pointer;
+ 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.fooorm-groups button:hover {
+  background-color: #fff;
+  color: rgb(255, 128, 0);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+>>>>>>> e84ea8e (Initial commit of my React Project)
 
 .charge {
     color: yellow;

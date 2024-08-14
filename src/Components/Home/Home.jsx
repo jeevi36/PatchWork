@@ -23,6 +23,11 @@ import password_icon1 from '../Images/img2.jpg';
 import './Home.css';
 
 const Home = () => {
+<<<<<<< HEAD
+=======
+
+   
+>>>>>>> e84ea8e (Initial commit of my React Project)
     const navigate = useNavigate();
     const [formData, setFormData] = useState({
         name: '',
@@ -230,7 +235,13 @@ const Home = () => {
                     </div>
                 
             </div>
+<<<<<<< HEAD
 
+=======
+            <div>
+    
+    </div>
+>>>>>>> e84ea8e (Initial commit of my React Project)
             <div className="home-second">
                 <div className="row">
                     <div className="columns">

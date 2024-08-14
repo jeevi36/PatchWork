@@ -1,0 +1,89 @@
+.settings-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+  }
+  
+  .settings-container h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-top: 100px;
+  }
+  
+  .settings-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .settings-card h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .settings-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    color: #555;
+    
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .form-group input::placeholder {
+    color: #888;
+  }
+  
+  .submit-button {
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838;
+  }
+
+  .status-message {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+  }
+  
+  .status-message.success {
+    background-color: #28a745;
+  }
+  
+  .status-message.error {
+    background-color: #dc3545;
+  }
+  
+  

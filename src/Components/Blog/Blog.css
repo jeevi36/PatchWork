@@ -38,7 +38,11 @@
   .image-container h1 {
     margin-top: 10px; /* Space between image and text */
     font-size: 1.1rem; /* Adjust font size as needed */
+<<<<<<< HEAD
     color: #ff9500;
+=======
+    color: rgb(255, 128, 0);
+>>>>>>> e84ea8e (Initial commit of my React Project)
     font-family: 'Oswald', Arial, Helvetica, sans-serif;
    padding-left: 30px;
    margin-top: 30px;
@@ -82,7 +86,11 @@
     margin-top: 13px;
     padding: 10px 20px;
     color: #fff;
+<<<<<<< HEAD
     background-color: #ff9500; /* Button color */
+=======
+    background-color: rgb(255, 128, 0); /* Button color */
+>>>>>>> e84ea8e (Initial commit of my React Project)
     text-decoration: none;
     border-radius: 5px;
     font-size: 14px;
@@ -90,6 +98,10 @@
   }
   
   .read-more:hover {
+<<<<<<< HEAD
     background-color: #e68a00;
+=======
+    background-color: rgb(255, 128, 0);
+>>>>>>> e84ea8e (Initial commit of my React Project)
     text-decoration: none; /* Darker shade on hover */
   }

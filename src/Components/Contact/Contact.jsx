@@ -1,16 +1,31 @@
+<<<<<<< HEAD
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
+=======
+import React, { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
+import axios from 'axios';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+>>>>>>> e84ea8e (Initial commit of my React Project)
 import './Contact.css';
 
 const Contact = () => {
   const location = useLocation();
   const query = new URLSearchParams(location.search);
+<<<<<<< HEAD
+=======
+  const name = query.get('name') || '';
+  const phone = query.get('phone') || '';
+  const serviceType = query.get('serviceType') || '';
+>>>>>>> e84ea8e (Initial commit of my React Project)
   const selectedDate = query.get('date');
   const selectedTime = query.get('time');
 
   const [formData, setFormData] = useState({
+<<<<<<< HEAD
     name: '',
     email: '',
     phoneNumber: '',
@@ -18,6 +33,15 @@ const Contact = () => {
     city: '',
     pincode: '',
     serviceType: '',
+=======
+    name: name,
+    email: '',
+    phone: phone,
+    address: '',
+    city: '',
+    pin: '',
+    serviceType: serviceType,
+>>>>>>> e84ea8e (Initial commit of my React Project)
     preferredDateTime: `${selectedDate}T${selectedTime}`,
     date: selectedDate,
     time: selectedTime,
@@ -49,6 +73,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+<<<<<<< HEAD
   
     try {
       const response = await fetch('/api/service-requests/book', {
@@ -75,6 +100,19 @@ const Contact = () => {
         alert(responseText);
       }
     } catch (error) {
+=======
+
+    try {
+      const response = await axios.post('/api/service-requests/book', formData);
+
+      if (response.status === 200) {
+        alert('Service booked successfully!');
+      } else {
+        alert('Failed to book service: ' + response.data.message);
+      }
+    } catch (error) {
+      console.error('Error making booking:', error);
+>>>>>>> e84ea8e (Initial commit of my React Project)
       alert('Failed to book service: ' + error.message);
     }
   };
